@@ -1,0 +1,111 @@
+.threads {
+  margin-top: 3rem;
+}
+.timeCont {
+  display: flex;
+  justify-content: space-between;
+}
+.sortTime {
+  border: none;
+  margin-bottom: 1rem;
+  font-size: 20px;
+  color: #616161;
+  transition: 200ms;
+  margin: 0 5px;
+}
+.sortTime:hover {
+  color: white;
+}
+.headtheads {
+  display: flex;
+  border-bottom: 1px solid #616161;
+  margin-bottom: 2rem;
+}
+.iconthreads {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.name {
+  margin-top: -0.3rem;
+  font-size: 18px;
+  cursor: pointer;
+  width: 41px;
+  height: 1.5rem;
+}
+.comment {
+  font-size: 16px;
+}
+.icons {
+  display: flex;
+  gap: 15px;
+  width: 300px;
+  margin-top: 10px;
+  height: 60px;
+}
+.bi {
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 100%;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 200ms;
+}
+.bi:hover {
+  background-color: #232323;
+}
+.likesfoot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 10px;
+  height: 30px;
+}
+.likes {
+  color: #616161;
+  font-size: 16px;
+}
+.times {
+  color: #616161;
+  font-size: 16px;
+}
+.commentsinput {
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.containerCom {
+  display: flex;
+  padding: 0.5rem 1.5rem;
+  gap: 10px;
+  margin-top: -10px;
+  border-top: 1px solid #616161;
+  margin-bottom: 20px;
+  height: 60px;
+}
+.iCom {
+  object-fit: contain;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  
+}
+.nCom {
+  font-size: 16px;
+
+}
+.pCom {
+  margin-top: -5px;
+  font-size: 14px;
+  max-width: 100px;
+  height: 20px;
+}
+.get {
+  margin-top: -5px;
+}
